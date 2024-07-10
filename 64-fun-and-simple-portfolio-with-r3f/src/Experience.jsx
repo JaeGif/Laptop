@@ -15,7 +15,7 @@ export default function Experience() {
   return (
     <>
       <Environment preset='city' />
-      <color args={['#241a1a']} attach='background' />
+      <color args={['#fdfa72']} attach='background' />
 
       <PresentationControls
         global
@@ -29,8 +29,8 @@ export default function Experience() {
           <rectAreaLight
             width={2.5}
             height={1.65}
-            intensity={65}
-            color={'#010101'}
+            intensity={10}
+            color={'yellow'}
             rotation={[0.1, Math.PI, 0]}
             position={[0, 0.55, -1.15]}
           />
@@ -47,6 +47,7 @@ export default function Experience() {
             </Html>
           </primitive>
           <Text
+            color={'black'}
             fontSize={0.8}
             position={[2, 0.75, 0.75]}
             rotation-y={-1.25}
